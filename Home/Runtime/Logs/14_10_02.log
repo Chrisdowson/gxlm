@@ -1,0 +1,162 @@
+[ 2014-10-02T17:37:26+08:00 ] 0.0.0.0 /gxlm/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.089128s ]
+INFO: [ route_check ] --END-- [ RunTime:0.089632s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.042296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.042933s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.014507s ]
+SQL: SELECT * FROM `studentinfo` WHERE ( wxcount='o-CsGuPRWmejitXUXzfUBzntg77E' ) LIMIT 1   [ RunTime:0.001978s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.114630s ]
+INFO: [ view_template ] --END-- [ RunTime:0.115157s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.235397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.236037s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.016057s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.021055s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.045709s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.009858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.094306s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.008684s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009448s ]
+
+[ 2014-10-02T17:38:23+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=register&wxcount=o-CsGuPRWmejitXUXzfUBzntg77E
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003385s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.146254s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.001463s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.084269s ]
+INFO: [ view_template ] --END-- [ RunTime:0.084669s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.099677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100319s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003267s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002423s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001629s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011426s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002318s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002649s ]
+
+[ 2014-10-02T17:39:13+08:00 ] 0.0.0.0 /gxlm/Register/check_iscode
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.033047s ]
+INFO: [ route_check ] --END-- [ RunTime:0.033434s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003690s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.009882s ]
+SQL: SELECT * FROM `school` WHERE ( `schoolno` = 3 ) LIMIT 1   [ RunTime:0.001735s ]
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.095619s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno=1 ) LIMIT 1   [ RunTime:0.001275s ]
+
+[ 2014-10-02T17:39:23+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=registerprocess
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004291s ]
+NOTIC: [8] Undefined index: code D:\wamp\www\gxlm\Home\Lib\Action\Home\RegisterAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.014130s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.010613s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=3 ) LIMIT 1   [ RunTime:0.001568s ]
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.011194s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno=1 ) LIMIT 1   [ RunTime:0.001276s ]
+NOTIC: [8] Use of undefined constant Action - assumed 'Action' D:\wamp\www\gxlm\Home\Lib\Action\Home\RegisterAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.009690s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=3 )  [ RunTime:0.001232s ]
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\wamp\www\gxlm\Home\Lib\Action\Home\Zf1_codeAction.class.php 第 17 行.
+NOTIC: [8] Undefined variable: cookies D:\wamp\www\gxlm\ThinkPHP\Extend\Library\ORG\My\Fetchurl.class.php 第 44 行.
+
+[ 2014-10-02T17:39:23+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=registerprocess
+SQL: INSERT INTO `studentinfo` (`wxcount`,`scount`,`pwd`,`schoolno`,`nickname`) VALUES ('o-CsGuPRWmejitXUXzfUBzntg77E','12142121','19931112',3,'12233') [ RunTime:0.075066s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002478s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002842s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039458s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001909s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001778s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001370s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008008s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.007341s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007674s ]
+
+[ 2014-10-02T17:39:34+08:00 ] 0.0.0.0 /gxlm/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004563s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004946s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006135s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.008310s ]
+SQL: SELECT * FROM `studentinfo` WHERE ( wxcount='o-CsGuPRWmejitXUXzfUBzntg77E' ) LIMIT 1   [ RunTime:0.001687s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.010602s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=3 ) LIMIT 1   [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.008297s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno=1 ) LIMIT 1   [ RunTime:0.001315s ]
+NOTIC: [8] Use of undefined constant Action - assumed 'Action' D:\wamp\www\gxlm\Home\Lib\Action\Home\CheckschoolAction.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.008541s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=3 )  [ RunTime:0.001378s ]
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\wamp\www\gxlm\Home\Lib\Action\Home\Zf1_codeAction.class.php 第 17 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.039409s ]
+INFO: [ view_template ] --END-- [ RunTime:0.039766s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024255s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001909s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001995s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001628s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008761s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002845s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003160s ]
+
+[ 2014-10-02T17:39:44+08:00 ] 0.0.0.0 /gxlm/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003195s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003574s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002444s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.007928s ]
+SQL: SELECT * FROM `studentinfo` WHERE ( wxcount='o-CsGuPRWmejitXUXzfUBzntg77E' ) LIMIT 1   [ RunTime:0.003258s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.008548s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=3 ) LIMIT 1   [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.008267s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno=1 ) LIMIT 1   [ RunTime:0.001162s ]
+NOTIC: [8] Use of undefined constant Action - assumed 'Action' D:\wamp\www\gxlm\Home\Lib\Action\Home\CheckschoolAction.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.008042s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=3 )  [ RunTime:0.001199s ]
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\wamp\www\gxlm\Home\Lib\Action\Home\Zf1_codeAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `bg_course` [ RunTime:0.177362s ]
+SQL: SELECT * FROM `bg_course` WHERE ( scount=12142121 ) ORDER BY week asc  [ RunTime:0.092913s ]
+NOTIC: [8] Undefined variable: nav D:\wamp\www\gxlm\Home\Lib\Action\Home\Zf1_codeAction.class.php 第 267 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001988s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002299s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022740s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001696s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002191s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001509s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008366s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002231s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002551s ]
+

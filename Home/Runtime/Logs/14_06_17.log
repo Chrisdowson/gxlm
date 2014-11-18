@@ -1,0 +1,48 @@
+[ 2014-06-17T22:41:24+08:00 ] 0.0.0.0 /gxlm/?m=Bifen&a=index&scount=12142121
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037424s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004379s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004753s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.049979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050355s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002954s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002831s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002828s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013894s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003450s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003792s ]
+
+[ 2014-06-17T22:41:40+08:00 ] ERR: (ThinkException) 非法操作:index
+[ 2014-06-17T22:42:13+08:00 ] 0.0.0.0 /gxlm/Register/register
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005107s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005478s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002454s ]
+NOTIC: [8] Undefined index: wxcount D:\wamp\www\gxlm\Home\Lib\Action\Home\RegisterAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `schoolinfo` [ RunTime:0.120974s ]
+SQL: SELECT * FROM `schoolinfo`  [ RunTime:0.003015s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002420s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005019s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: wxcount D:\wamp\www\gxlm\Home\Runtime\Cache\Home\e298b7d7993821cf8df65b5f3797503a.php 第 67 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.077384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077703s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003766s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002337s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001913s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011267s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003224s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003584s ]
+
