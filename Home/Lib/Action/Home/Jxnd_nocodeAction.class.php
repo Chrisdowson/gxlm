@@ -1,4 +1,8 @@
 <?php
+/**
+ * Class Jxnd_nocodeAction
+ * 江西农大
+ */
 class Jxnd_nocodeAction  extends Action{
 				private $Fetchurl;
 				private $schoolinfo;

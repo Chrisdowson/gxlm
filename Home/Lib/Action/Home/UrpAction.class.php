@@ -1,4 +1,10 @@
 <?php
+
+/**
+ * Class UrpAction
+ * Urp有验证码
+ *
+ */
 class UrpAction extends Action {
 	private $Fetchurl;
 	private $schoolinfo;

@@ -1,4 +1,9 @@
 <?php
+
+/**
+ * Class Qhjw_codeAction
+ *  清华教务
+ */
 class Qhjw_codeAction extends Action {
 	private $Fetchurl;
 	private $schoolinfo;

@@ -1,4 +1,10 @@
 <?php
+
+/**
+ * Class Hnqg_codeAction
+ * 湖南青果教务系统
+ * 山西师范大学
+ */
 class Hnqg_codeAction extends Action {
 	private $Fetchurl;
 	private $schoolinfo;

@@ -1,4 +1,10 @@
 <?php
+
+/**
+ * Class Hnqz_codeAction
+ * 湖南强智教务系统
+ * 井冈山大学
+ */
 class Hnqz_codeAction extends Action {
 	private $Fetchurl;
 	private $schoolinfo;

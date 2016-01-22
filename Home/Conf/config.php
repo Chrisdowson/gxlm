@@ -14,7 +14,7 @@ return array(
 		//其他项目配置参数
 		'APP_GROUP_LIST' => 'Home,Admin', //项目分组设定
 		'DEFAULT_GROUP'  => 'Home', //默认分组
-		//'URL_CASE_INSENSITIVE' =>true,//设置系统url不区分大小写
+		'URL_CASE_INSENSITIVE' =>true,//设置系统url不区分大小写
 		//'SHOW_PAGE_TRACE'=>true,
 		'TMPL_PARSE_STRING'=>array(
 				'__CSS__'=>__ROOT__.'/Public/css/',

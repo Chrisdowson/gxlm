@@ -1,4 +1,9 @@
 <?php
+
+/**
+ * Class Rqty_codeAction
+ *  广东海洋大学
+ */
 class Rqty_codeAction extends Action {
 	private $Fetchurl;
 	private $schoolinfo;

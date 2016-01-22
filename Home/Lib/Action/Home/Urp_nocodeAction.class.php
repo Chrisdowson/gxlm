@@ -1,4 +1,10 @@
 <?php
+
+/**
+ * Class Urp_nocodeAction
+ * URP无验证码版
+ * 北邮世纪、天津城建
+ */
 class Urp_nocodeAction extends Action{
 	private $Fetchurl;
 	private $schoolinfo;
