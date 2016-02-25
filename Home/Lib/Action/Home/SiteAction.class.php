@@ -7,6 +7,6 @@
  */
 class SiteAction extends Action{
     public function index(){
-
+        echo 'index';
     }
 }
