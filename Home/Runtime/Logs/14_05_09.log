@@ -1,0 +1,22 @@
+[ 2014-05-09T10:03:41+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=register&wxcount=o-CsGuPRWmejitXUXzfUBzntg77E
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004738s ]
+SQL: SHOW COLUMNS FROM `schoolinfo` [ RunTime:0.119126s ]
+SQL: SELECT * FROM `schoolinfo`  [ RunTime:0.001247s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.046429s ]
+INFO: [ view_template ] --END-- [ RunTime:0.046860s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.067562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067912s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.012070s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003327s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002447s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022528s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004026s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004339s ]
+

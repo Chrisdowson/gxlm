@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+<title>主界面</title>
+</head>
+<body>
+<div align="center">
+<FIELDSET>
+<LEGEND>添加学校</LEGEND>
+<form action="../Jwsys/addschool" method="post">
+	<LABEL>学校全名</LABEL>
+	<input type="text" name="schoolname"/><BR>
+	<label>教务系统Url</label>
+	<INPUT type="text" name="url"><br>
+	<LABEL>教务系统类型</LABEL>
+	<select name="sysno">
+	<volist name="res" id="id">
+  <option value="<{$id.sysno}>"><{$id.sysname}></option>
+  </volist>
+</select><br>
+<input type="submit" value="提交"/>
+<input type="reset" value="重置"/>
+</form>
+</FIELDSET>
+</div>
+
+<div align="center">
+    <FIELDSET>
+        <LEGEND>添加教务系统</LEGEND>
+        <form action="../Jwsys/addjwsys" method="post">
+            <LABEL>教务系统全名</LABEL>
+            <input type="text" name="sysname"/><br>
+            <label>教务系统类名</label>
+            <INPUT type="text" name="m_class"/><br>
+            <input type="submit" value="提交"/>
+            <input type="reset" value="重置"/>
+        </form>
+    </FIELDSET>
+</div>
+
+<div align="center">
+    <FIELDSET>
+        <LEGEND>手动添加用户信息</LEGEND>
+        <form action="../Jwsys/addjwsys" method="post">
+            <LABEL>教务系统全名</LABEL>
+            <input type="text" name="sysname"/><br>
+            <label>教务系统类名</label>
+            <INPUT type="text" name="m_class"/><br>
+            <input type="submit" value="提交"/>
+            <input type="reset" value="重置"/>
+        </form>
+    </FIELDSET>
+</div>
+</body>
+</html>
