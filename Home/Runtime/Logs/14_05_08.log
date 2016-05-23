@@ -1,0 +1,84 @@
+[ 2014-05-08T12:45:32+08:00 ] 192.168.1.102 /gxlm/?m=Bgclasses&a=classes&scount=12142121
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.023693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024048s ]
+SQL: SHOW COLUMNS FROM `bg_course` [ RunTime:0.134401s ]
+SQL: SELECT * FROM `bg_course` WHERE ( scount=12142121 ) ORDER BY find_in_set(week,'一,二,三,四,五'),jieci  [ RunTime:0.044239s ]
+NOTIC: [8] Undefined offset:  0 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  0 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 34 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 34 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 34 行.
+NOTIC: [8] Undefined offset:  4 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  5 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  2 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  0 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 34 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 34 行.
+NOTIC: [8] Undefined offset:  2 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 34 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 34 行.
+NOTIC: [8] Undefined offset:  3 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 34 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 34 行.
+NOTIC: [8] Undefined offset:  4 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  5 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  3 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 34 行.
+NOTIC: [8] Undefined offset:  2 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 34 行.
+NOTIC: [8] Undefined offset:  3 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 34 行.
+NOTIC: [8] Undefined offset:  4 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 34 行.
+NOTIC: [8] Undefined offset:  3 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 37 行.
+NOTIC: [8] Undefined offset:  1 D:\wamp\www\gxlm\Home\Lib\Action\BgclassesAction.class.php 第 34 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.052047s ]
+INFO: [ view_template ] --END-- [ RunTime:0.052340s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset:  2 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  3 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  4 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  5 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  0 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  2 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  3 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  0 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  4 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  5 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  0 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  2 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  4 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  5 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  5 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  5 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  5 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  5 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  5 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  5 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  6 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  6 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  6 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  6 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  6 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+NOTIC: [8] Undefined offset:  6 D:\wamp\www\gxlm\Home\Runtime\Cache\99ec45d4069d5de0788173ed0cf71ed6.php 第 60 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.205538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.205890s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.017009s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.044527s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.005119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.073269s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.016425s ]
+INFO: [ view_end ] --END-- [ RunTime:0.016740s ]
+
+[ 2014-05-08T12:45:33+08:00 ] ERR: (ThinkException) 无法加载模块:style

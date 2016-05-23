@@ -1,0 +1,185 @@
+[ 2014-09-28T19:56:17+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=register&wxcount=o-CsGuPRWmejitXUXzfUBzntg77E
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.065584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.066195s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.159291s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.002115s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.209475s ]
+INFO: [ view_template ] --END-- [ RunTime:0.209823s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.326583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.326937s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.035187s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.033145s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.019482s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.092538s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.007187s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007709s ]
+
+[ 2014-09-28T19:56:40+08:00 ] 0.0.0.0 /gxlm/Register/check_iscode
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.025730s ]
+INFO: [ route_check ] --END-- [ RunTime:0.026171s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004528s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.010546s ]
+SQL: SELECT * FROM `school` WHERE ( `schoolno` = 3 ) LIMIT 1   [ RunTime:0.029381s ]
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.137919s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno=1 ) LIMIT 1   [ RunTime:0.001558s ]
+
+[ 2014-09-28T19:57:15+08:00 ] 0.0.0.0 /gxlm/Register/check_iscode
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003512s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003931s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003114s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.009217s ]
+SQL: SELECT * FROM `school` WHERE ( `schoolno` = 1 ) LIMIT 1   [ RunTime:0.001174s ]
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.010084s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno=2 ) LIMIT 1   [ RunTime:0.001265s ]
+
+[ 2014-09-28T19:57:16+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=registerprocess
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003080s ]
+NOTIC: [8] Undefined index: code D:\wamp\www\gxlm\Home\Lib\Action\Home\RegisterAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.009728s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.009699s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=1 ) LIMIT 1   [ RunTime:0.001629s ]
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.011957s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno=2 ) LIMIT 1   [ RunTime:0.001270s ]
+NOTIC: [8] Use of undefined constant Action - assumed 'Action' D:\wamp\www\gxlm\Home\Lib\Action\Home\RegisterAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.009754s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=1 )  [ RunTime:0.001253s ]
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\wamp\www\gxlm\Home\Lib\Action\Home\Urp_nocodeAction.class.php 第 17 行.
+NOTIC: [8] Undefined variable: cookies D:\wamp\www\gxlm\ThinkPHP\Extend\Library\ORG\My\Fetchurl.class.php 第 44 行.
+
+[ 2014-09-28T19:57:17+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=registerprocess
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003676s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004066s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.044562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044943s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002167s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002208s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009123s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002958s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003492s ]
+
+[ 2014-09-28T19:58:33+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=registerprocess
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002607s ]
+NOTIC: [8] Undefined index: code D:\wamp\www\gxlm\Home\Lib\Action\Home\RegisterAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.009472s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.008744s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=1 ) LIMIT 1   [ RunTime:0.002030s ]
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.009093s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno=2 ) LIMIT 1   [ RunTime:0.001433s ]
+NOTIC: [8] Use of undefined constant Action - assumed 'Action' D:\wamp\www\gxlm\Home\Lib\Action\Home\RegisterAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.056918s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=1 )  [ RunTime:0.001397s ]
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\wamp\www\gxlm\Home\Lib\Action\Home\Urp_nocodeAction.class.php 第 17 行.
+NOTIC: [8] Undefined variable: cookies D:\wamp\www\gxlm\ThinkPHP\Extend\Library\ORG\My\Fetchurl.class.php 第 44 行.
+
+[ 2014-09-28T19:58:33+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=registerprocess
+SQL: INSERT INTO `studentinfo` (`wxcount`,`scount`,`pwd`,`schoolno`,`nickname`) VALUES ('o-CsGuPRWmejitXUXzfUBzntg77E','11160212','123456',1,'11111') [ RunTime:0.001190s ]
+ERR: Duplicate entry 'o-CsGuPRWmejitXUXzfUBzntg77E' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `studentinfo` (`wxcount`,`scount`,`pwd`,`schoolno`,`nickname`) VALUES ('o-CsGuPRWmejitXUXzfUBzntg77E','11160212','123456',1,'11111')
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002279s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002595s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024016s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001827s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004188s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011210s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002900s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003241s ]
+
+[ 2014-09-28T20:12:27+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=registerprocess
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002561s ]
+NOTIC: [8] Undefined index: code D:\wamp\www\gxlm\Home\Lib\Action\Home\RegisterAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.009147s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.010869s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=1 ) LIMIT 1   [ RunTime:0.001303s ]
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.009370s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno=2 ) LIMIT 1   [ RunTime:0.002393s ]
+NOTIC: [8] Use of undefined constant Action - assumed 'Action' D:\wamp\www\gxlm\Home\Lib\Action\Home\RegisterAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.013974s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=1 )  [ RunTime:0.001335s ]
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\wamp\www\gxlm\Home\Lib\Action\Home\Urp_nocodeAction.class.php 第 17 行.
+NOTIC: [8] Undefined variable: cookies D:\wamp\www\gxlm\ThinkPHP\Extend\Library\ORG\My\Fetchurl.class.php 第 44 行.
+
+[ 2014-09-28T20:12:30+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=registerprocess
+SQL: INSERT INTO `studentinfo` (`wxcount`,`scount`,`pwd`,`schoolno`,`nickname`) VALUES ('o-CsGuPRWmejitXUXzfUBzntg77E','11160212','123456',1,'11111') [ RunTime:0.001098s ]
+ERR: Duplicate entry 'o-CsGuPRWmejitXUXzfUBzntg77E' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `studentinfo` (`wxcount`,`scount`,`pwd`,`schoolno`,`nickname`) VALUES ('o-CsGuPRWmejitXUXzfUBzntg77E','11160212','123456',1,'11111')
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.562122s ]
+INFO: [ view_template ] --END-- [ RunTime:0.564978s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:1.342270s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.342622s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.170939s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.021192s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.040292s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.012377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.245922s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.192486s ]
+INFO: [ view_end ] --END-- [ RunTime:0.192814s ]
+
+[ 2014-09-28T20:13:42+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=registerprocess
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006391s ]
+NOTIC: [8] Undefined index: code D:\wamp\www\gxlm\Home\Lib\Action\Home\RegisterAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.010206s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.008714s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=1 ) LIMIT 1   [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.008650s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno=2 ) LIMIT 1   [ RunTime:0.001356s ]
+NOTIC: [8] Use of undefined constant Action - assumed 'Action' D:\wamp\www\gxlm\Home\Lib\Action\Home\RegisterAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.009172s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=1 )  [ RunTime:0.001087s ]
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\wamp\www\gxlm\Home\Lib\Action\Home\Urp_nocodeAction.class.php 第 17 行.
+NOTIC: [8] Undefined variable: cookies D:\wamp\www\gxlm\ThinkPHP\Extend\Library\ORG\My\Fetchurl.class.php 第 44 行.
+
+[ 2014-09-28T20:13:43+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=registerprocess
+SQL: INSERT INTO `studentinfo` (`wxcount`,`scount`,`pwd`,`schoolno`,`nickname`) VALUES ('o-CsGuPRWmejitXUXzfUBzntg77E','11160212','123456',1,'11111') [ RunTime:0.091908s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002653s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003017s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.127388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127761s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001665s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001828s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002554s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008977s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002400s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002963s ]
+

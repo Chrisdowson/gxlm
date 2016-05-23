@@ -1,0 +1,1950 @@
+[ 2014-06-21T10:26:08+08:00 ] ERR: (ThinkException) 无法加载模块:index
+[ 2014-06-21T10:26:24+08:00 ] ERR: (ThinkException) 无法加载模块:longin
+[ 2014-06-21T10:26:29+08:00 ] ERR: (ThinkException) 无法加载模块:login
+[ 2014-06-21T10:26:52+08:00 ] 0.0.0.0 /gxlm/admin/Login/loginprocess
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002757s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003242s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004381s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: password D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008992s ]
+SQL: SELECT * FROM `admin` WHERE ( username='$' ) LIMIT 1   [ RunTime:0.001298s ]
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 11 行.
+
+[ 2014-06-21T10:27:24+08:00 ] 0.0.0.0 /gxlm/admin/Login/loginprocess
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002687s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003057s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008574s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: password D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007825s ]
+SQL: SELECT * FROM `admin` WHERE ( username='$' ) LIMIT 1   [ RunTime:0.001454s ]
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 11 行.
+
+[ 2014-06-21T10:31:08+08:00 ] 0.0.0.0 /gxlm/admin/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006748s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007120s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002730s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.050236s ]
+INFO: [ view_template ] --END-- [ RunTime:0.050633s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.098964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099322s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002509s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002565s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002148s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011307s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003066s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003385s ]
+
+[ 2014-06-21T10:31:36+08:00 ] 0.0.0.0 /gxlm/admin/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002763s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003119s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002367s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001992s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002360s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025035s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001630s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001696s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001368s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008126s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003521s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003841s ]
+
+[ 2014-06-21T10:31:48+08:00 ] 0.0.0.0 /gxlm/admin/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002841s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003205s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002498s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002023s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002402s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025016s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002177s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001844s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001526s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009846s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002210s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002521s ]
+
+[ 2014-06-21T10:39:31+08:00 ] 0.0.0.0 /gxlm/admin/Login/loginprocess
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003681s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004040s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003123s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: password D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009108s ]
+SQL: SELECT * FROM `admin` WHERE ( username='$' ) LIMIT 1   [ RunTime:0.003411s ]
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 11 行.
+
+[ 2014-06-21T10:39:35+08:00 ] 0.0.0.0 /gxlm/admin/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002545s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002948s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003097s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.047561s ]
+INFO: [ view_template ] --END-- [ RunTime:0.048090s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.125053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125405s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002412s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.013148s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002082s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021642s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002951s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003265s ]
+
+[ 2014-06-21T10:40:11+08:00 ] 0.0.0.0 /gxlm/admin/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002514s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002870s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002613s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001898s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002272s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030447s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001748s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002590s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011588s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002390s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002723s ]
+
+[ 2014-06-21T10:43:08+08:00 ] 0.0.0.0 /gxlm/admin/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003228s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003594s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002722s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002982s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003365s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025311s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002942s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002235s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001598s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010020s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005257s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005581s ]
+
+[ 2014-06-21T10:43:46+08:00 ] 0.0.0.0 /gxlm/admin/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003050s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003408s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002436s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003141s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003569s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024171s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002614s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003343s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001712s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012704s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002887s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003222s ]
+
+[ 2014-06-21T10:43:53+08:00 ] 0.0.0.0 /gxlm/admin/Login/index/loginprpcess?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003772s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004139s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002871s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003098s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003681s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024113s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002114s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002008s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002009s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009222s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002386s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002691s ]
+
+[ 2014-06-21T10:44:17+08:00 ] 0.0.0.0 /gxlm/admin/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003852s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004228s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002379s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002010s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002445s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023730s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001588s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001766s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001606s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008425s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002723s ]
+
+[ 2014-06-21T10:44:24+08:00 ] ERR: (ThinkException) 非法操作:login
+[ 2014-06-21T10:44:39+08:00 ] 0.0.0.0 /gxlm/admin/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002538s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002908s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002331s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002288s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002711s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021589s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001643s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002052s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009909s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002306s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002870s ]
+
+[ 2014-06-21T10:44:46+08:00 ] ERR: (ThinkException) 非法操作:loginprpcess
+[ 2014-06-21T10:45:00+08:00 ] 0.0.0.0 /gxlm/admin/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002524s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002889s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002887s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002014s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002390s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022825s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001682s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001655s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001539s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008537s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002248s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002565s ]
+
+[ 2014-06-21T10:45:08+08:00 ] 0.0.0.0 /gxlm/admin/Login/loginprocess?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002850s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002494s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: password D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.013208s ]
+SQL: SELECT * FROM `admin` WHERE ( username='$' ) LIMIT 1   [ RunTime:0.001961s ]
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 11 行.
+
+[ 2014-06-21T10:45:44+08:00 ] 0.0.0.0 /gxlm/admin/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002498s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002853s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002311s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002858s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003236s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022513s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004902s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001799s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001403s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011157s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003811s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004121s ]
+
+[ 2014-06-21T10:45:51+08:00 ] 0.0.0.0 /gxlm/admin/Login/loginprocess?username=admin&password=123456
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003043s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003399s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002584s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: password D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007947s ]
+SQL: SELECT * FROM `admin` WHERE ( username='$' ) LIMIT 1   [ RunTime:0.001243s ]
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 11 行.
+
+[ 2014-06-21T10:46:12+08:00 ] 0.0.0.0 /gxlm/admin/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003447s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002544s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002988s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003397s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025560s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002104s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002274s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001622s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010236s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002487s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002794s ]
+
+[ 2014-06-21T10:46:19+08:00 ] 0.0.0.0 /gxlm/admin/Login/loginprocess
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002543s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002892s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002846s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007486s ]
+SQL: SELECT * FROM `admin` WHERE ( username='$admin' ) LIMIT 1   [ RunTime:0.001327s ]
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 11 行.
+
+[ 2014-06-21T10:46:30+08:00 ] 0.0.0.0 /gxlm/admin/Login/loginprocess
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002746s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003179s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002665s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008263s ]
+SQL: SELECT * FROM `admin` WHERE ( username='$admin' ) LIMIT 1   [ RunTime:0.001221s ]
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 11 行.
+
+[ 2014-06-21T10:47:22+08:00 ] 0.0.0.0 /gxlm/admin/Login/loginprocess
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003619s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004117s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003348s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.012845s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.002149s ]
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\wamp\www\gxlm\Home\Lib\Action\Admin\LoginAction.class.php 第 11 行.
+
+[ 2014-06-21T10:59:34+08:00 ] ERR: (ThinkException) 无法加载模块:index
+[ 2014-06-21T10:59:53+08:00 ] ERR: (ThinkException) 无法加载模块:index
+[ 2014-06-21T11:00:43+08:00 ] 0.0.0.0 /gxlm/admin/Index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002836s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003202s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003382s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003032s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003411s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025736s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001930s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002202s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001649s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009105s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002824s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003159s ]
+
+[ 2014-06-21T11:00:53+08:00 ] 0.0.0.0 /gxlm/admin/Index/loginprocess
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003183s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002824s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.015688s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.001247s ]
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 11 行.
+
+[ 2014-06-21T11:00:53+08:00 ] ERR: (ThinkException) 无法加载模块:index
+[ 2014-06-21T11:01:42+08:00 ] ERR: (ThinkException) 无法加载模块:index
+[ 2014-06-21T11:01:52+08:00 ] 0.0.0.0 /gxlm/admin/Index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002566s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002935s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002616s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002021s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002391s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024433s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001672s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002799s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001646s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009271s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002296s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002601s ]
+
+[ 2014-06-21T11:02:10+08:00 ] 0.0.0.0 /gxlm/admin/Index/loginprocess
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003181s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003558s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002797s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.012760s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.002120s ]
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 11 行.
+
+[ 2014-06-21T11:02:10+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003915s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004284s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002430s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003050s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003432s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024812s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001902s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002676s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001616s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009401s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002546s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002859s ]
+
+[ 2014-06-21T11:06:48+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003344s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003715s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002802s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003612s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004262s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025326s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003376s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002122s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001729s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011565s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002922s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003587s ]
+
+[ 2014-06-21T11:06:56+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/loginprocess
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003668s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004172s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004793s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007459s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.001300s ]
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 11 行.
+
+[ 2014-06-21T11:06:56+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002837s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003431s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002869s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 18 行.
+
+[ 2014-06-21T11:10:59+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003788s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002640s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006009s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006617s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025536s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001924s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002892s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002439s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010423s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002746s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003052s ]
+
+[ 2014-06-21T11:11:06+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/loginprocess
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002670s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003032s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002424s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008959s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.001865s ]
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 11 行.
+
+[ 2014-06-21T11:11:06+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002543s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002901s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002635s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002387s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002775s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027982s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001621s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002015s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001685s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008664s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003098s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003441s ]
+
+[ 2014-06-21T14:40:28+08:00 ] ERR: (ThinkException) 无法加载模块:Login
+[ 2014-06-21T14:40:35+08:00 ] 0.0.0.0 /gxlm/admin/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003192s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003599s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004080s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.058726s ]
+INFO: [ view_template ] --END-- [ RunTime:0.059136s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.140229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140587s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002563s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.010181s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002272s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.008708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024670s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003425s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003742s ]
+
+[ 2014-06-21T14:40:43+08:00 ] 0.0.0.0 /gxlm/admin/Index/loginprocess
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004046s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004584s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002729s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008604s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.001239s ]
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 11 行.
+
+[ 2014-06-21T14:40:43+08:00 ] 0.0.0.0 /gxlm/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002670s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003058s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002349s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002257s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002609s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025747s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001989s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001721s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001349s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008218s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003114s ]
+
+[ 2014-06-21T14:41:11+08:00 ] 0.0.0.0 /gxlm/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002738s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003283s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002401s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003839s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004208s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024774s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004868s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003974s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001637s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014320s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003065s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003500s ]
+
+[ 2014-06-21T14:41:30+08:00 ] 0.0.0.0 /gxlm/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002768s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003123s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004705s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002028s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002382s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021773s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002184s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002378s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001328s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009060s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002198s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002533s ]
+
+[ 2014-06-21T14:43:03+08:00 ] 0.0.0.0 /gxlm/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003136s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003502s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002877s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002260s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002605s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023163s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003107s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001857s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001484s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009932s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003276s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003607s ]
+
+[ 2014-06-21T14:43:13+08:00 ] 0.0.0.0 /gxlm/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002813s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003181s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002629s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005594s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005975s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027905s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001946s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002077s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001710s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009300s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002978s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003297s ]
+
+[ 2014-06-21T14:43:50+08:00 ] 0.0.0.0 /gxlm/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005147s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006236s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002927s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002423s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002816s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025126s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001808s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003258s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001440s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010731s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002566s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002935s ]
+
+[ 2014-06-21T14:57:52+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002632s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002998s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002672s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.013151s ]
+INFO: [ view_template ] --END-- [ RunTime:0.013868s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.065919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066299s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.028082s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.033191s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.010290s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.016856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.089345s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.011020s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011342s ]
+
+[ 2014-06-21T14:58:02+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/loginprocess
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003064s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003417s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002821s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.012763s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.001703s ]
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 11 行.
+
+[ 2014-06-21T14:58:03+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002506s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002874s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002312s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.012839s ]
+SQL: SELECT * FROM `jwsys`  [ RunTime:0.001809s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005494s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005960s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.113451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113807s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001883s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002063s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001919s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008977s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002400s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002722s ]
+
+[ 2014-06-21T15:01:22+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/loginprocess
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003134s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003503s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004035s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007427s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.001579s ]
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 11 行.
+
+[ 2014-06-21T15:01:45+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/loginprocess
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002805s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003173s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002698s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.007287s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.001460s ]
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 11 行.
+
+[ 2014-06-21T15:01:46+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003670s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004220s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003340s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.007234s ]
+SQL: SELECT * FROM `jwsys`  [ RunTime:0.001161s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003428s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003765s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027573s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002274s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003140s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001684s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010296s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002444s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002759s ]
+
+[ 2014-06-21T15:04:55+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004546s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004914s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002633s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.007855s ]
+SQL: SELECT * FROM `jwsys`  [ RunTime:0.001089s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003846s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004187s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029019s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002037s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002019s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002002s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009655s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002494s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002813s ]
+
+[ 2014-06-21T15:06:43+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002801s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003177s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002704s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.011081s ]
+SQL: SELECT * FROM `jwsys`  [ RunTime:0.001233s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002131s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002476s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026588s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002765s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002421s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001423s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009597s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002437s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002764s ]
+
+[ 2014-06-21T15:23:04+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003265s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003626s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002670s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.007450s ]
+SQL: SELECT * FROM `jwsys`  [ RunTime:0.001174s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003172s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003503s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028315s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002277s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002097s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003130s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011225s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002521s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002837s ]
+
+[ 2014-06-21T15:23:45+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Jwsys/addschool
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003415s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003777s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004775s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.008221s ]
+SQL: INSERT INTO `school` (`schoolname`,`url`,`sysno`) VALUES ('北京邮电大学世纪学院','http://111.204.7.29:8080/loginAction.do',1) [ RunTime:0.066375s ]
+
+[ 2014-06-21T15:33:26+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003820s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004240s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002729s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.008134s ]
+SQL: SELECT * FROM `jwsys`  [ RunTime:0.001114s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003469s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003816s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029031s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001872s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002074s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001695s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009283s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002818s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003146s ]
+
+[ 2014-06-21T16:03:54+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Home/Public/text.html]
+[ 2014-06-21T16:06:33+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Home/Public/text.html]
+[ 2014-06-21T16:06:38+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Home/Public/text.html]
+[ 2014-06-21T16:09:37+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Home/Public/text.html]
+[ 2014-06-21T16:11:23+08:00 ] 0.0.0.0 /gxlm/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005296s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003101s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.008141s ]
+SQL: SELECT * FROM `studentinfo` WHERE ( wxcount='o-CsGuPRWmejitXUXzfUBzntg77E' ) LIMIT 1   [ RunTime:0.001496s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.008046s ]
+SQL: SELECT * FROM `school` WHERE ( school=3 ) LIMIT 1   [ RunTime:0.000927s ]
+ERR: Unknown column 'school' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `school` WHERE ( school=3 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.008260s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno= ) LIMIT 1   [ RunTime:0.000842s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `jwsys` WHERE ( sysno= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002785s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003134s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.047578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047935s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002814s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002770s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002439s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012246s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003610s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003939s ]
+
+[ 2014-06-21T16:13:05+08:00 ] 0.0.0.0 /gxlm/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003430s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003809s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003402s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.008041s ]
+SQL: SELECT * FROM `studentinfo` WHERE ( wxcount='o-CsGuPRWmejitXUXzfUBzntg77E' ) LIMIT 1   [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.008300s ]
+SQL: SELECT * FROM `school` WHERE ( school=3 ) LIMIT 1   [ RunTime:0.000943s ]
+ERR: Unknown column 'school' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `school` WHERE ( school=3 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.007570s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno= ) LIMIT 1   [ RunTime:0.000873s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `jwsys` WHERE ( sysno= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002314s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002630s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022145s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003081s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001896s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001457s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009682s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002340s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002661s ]
+
+[ 2014-06-21T16:13:33+08:00 ] 0.0.0.0 /gxlm/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002661s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003547s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002395s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.014009s ]
+SQL: SELECT * FROM `studentinfo` WHERE ( wxcount='o-CsGuPRWmejitXUXzfUBzntg77E' ) LIMIT 1   [ RunTime:0.002092s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.013078s ]
+SQL: SELECT * FROM `school` WHERE ( school=3 ) LIMIT 1   [ RunTime:0.000934s ]
+ERR: Unknown column 'school' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `school` WHERE ( school=3 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.009905s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno= ) LIMIT 1   [ RunTime:0.000814s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `jwsys` WHERE ( sysno= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002767s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003092s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023384s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001983s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002271s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001606s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009018s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002481s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002792s ]
+
+[ 2014-06-21T16:13:52+08:00 ] 0.0.0.0 /gxlm/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003370s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003743s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002682s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `studentinfo` WHERE ( wxcount='o-CsGuPRWmejitXUXzfUBzntg77E' ) LIMIT 1   [ RunTime:0.001553s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.008214s ]
+SQL: SELECT * FROM `school` WHERE ( school=3 ) LIMIT 1   [ RunTime:0.001069s ]
+ERR: Unknown column 'school' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `school` WHERE ( school=3 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.008122s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno= ) LIMIT 1   [ RunTime:0.001130s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `jwsys` WHERE ( sysno= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001999s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002313s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022376s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001659s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001743s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001781s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008311s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002247s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002556s ]
+
+[ 2014-06-21T16:14:38+08:00 ] 0.0.0.0 /gxlm/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003648s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004031s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002388s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.010848s ]
+SQL: SELECT * FROM `studentinfo` WHERE ( wxcount='o-CsGuPRWmejitXUXzfUBzntg77E' ) LIMIT 1   [ RunTime:0.002473s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.007829s ]
+SQL: SELECT * FROM `school` WHERE ( school=3 ) LIMIT 1   [ RunTime:0.003737s ]
+ERR: Unknown column 'school' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `school` WHERE ( school=3 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.009258s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno= ) LIMIT 1   [ RunTime:0.001031s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `jwsys` WHERE ( sysno= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002186s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002530s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026076s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002102s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001906s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001406s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008600s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003969s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004305s ]
+
+[ 2014-06-21T16:17:23+08:00 ] 0.0.0.0 /gxlm/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002542s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002916s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003481s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.009986s ]
+SQL: SELECT * FROM `studentinfo` WHERE ( wxcount='o-CsGuPRWmejitXUXzfUBzntg77E' ) LIMIT 1   [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.008097s ]
+SQL: SELECT * FROM `school` WHERE ( school=3 ) LIMIT 1   [ RunTime:0.001003s ]
+ERR: Unknown column 'school' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `school` WHERE ( school=3 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.008019s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno= ) LIMIT 1   [ RunTime:0.000817s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `jwsys` WHERE ( sysno= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003419s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003751s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002233s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002059s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001642s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009403s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002531s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002868s ]
+
+[ 2014-06-21T16:18:02+08:00 ] 0.0.0.0 /gxlm/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003210s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003418s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.013178s ]
+SQL: SELECT * FROM `studentinfo` WHERE ( wxcount='o-CsGuPRWmejitXUXzfUBzntg77E' ) LIMIT 1   [ RunTime:0.002111s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.010686s ]
+SQL: SELECT * FROM `school` WHERE ( school=3 ) LIMIT 1   [ RunTime:0.000909s ]
+ERR: Unknown column 'school' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `school` WHERE ( school=3 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.007603s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno= ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `jwsys` WHERE ( sysno= ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002143s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002473s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022410s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001692s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001778s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001388s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007805s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002328s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002723s ]
+
+[ 2014-06-21T16:26:23+08:00 ] 0.0.0.0 /gxlm/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002646s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003012s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002611s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.007943s ]
+SQL: SELECT * FROM `studentinfo` WHERE ( wxcount='o-CsGuPRWmejitXUXzfUBzntg77E' ) LIMIT 1   [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.007862s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=1 ) LIMIT 1   [ RunTime:0.001382s ]
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.008570s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno=1 ) LIMIT 1   [ RunTime:0.001276s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003172s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003504s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023813s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001947s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002077s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001702s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009083s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003077s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003393s ]
+
+[ 2014-06-21T16:31:09+08:00 ] 0.0.0.0 /gxlm/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004566s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004935s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003007s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.007817s ]
+SQL: SELECT * FROM `studentinfo` WHERE ( wxcount='o-CsGuPRWmejitXUXzfUBzntg77' ) LIMIT 1   [ RunTime:0.001343s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003262s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003644s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023914s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002111s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002197s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001676s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009338s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002799s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003115s ]
+
+[ 2014-06-21T16:37:31+08:00 ] 0.0.0.0 /gxlm/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003319s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003709s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004455s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.008588s ]
+SQL: SELECT * FROM `studentinfo` WHERE ( wxcount='o-CsGuPRWmejitXUXzfUBzntg77' ) LIMIT 1   [ RunTime:0.001291s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003173s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003651s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023466s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002025s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002813s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001613s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009739s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002832s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003143s ]
+
+[ 2014-06-21T16:43:51+08:00 ] 0.0.0.0 /gxlm/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004023s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004402s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002633s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.007942s ]
+SQL: SELECT * FROM `studentinfo` WHERE ( wxcount='o-CsGuPRWmejitXUXzfUBzntg77E' ) LIMIT 1   [ RunTime:0.001662s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.007861s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=1 ) LIMIT 1   [ RunTime:0.001390s ]
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.007997s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno=1 ) LIMIT 1   [ RunTime:0.001188s ]
+NOTIC: [8] Use of undefined constant Action - assumed 'Action' D:\wamp\www\gxlm\Home\Lib\Action\Home\CheckschoolAction.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `schoolinfo` [ RunTime:0.008078s ]
+SQL: SELECT * FROM `schoolinfo` WHERE ( schoolno=1 )  [ RunTime:0.001133s ]
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\wamp\www\gxlm\Home\Lib\Action\Home\Zf12_codeAction.class.php 第 17 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003884s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004215s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023729s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001976s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002749s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001853s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009904s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002687s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003042s ]
+
+[ 2014-06-21T16:53:32+08:00 ] 0.0.0.0 /gxlm/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003617s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003981s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002614s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.007674s ]
+SQL: SELECT * FROM `studentinfo` WHERE ( wxcount='o-CsGuPRWmejitXUXzfUBzntg77E' ) LIMIT 1   [ RunTime:0.001396s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003154s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003523s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023852s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002466s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002191s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001605s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009612s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002521s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002856s ]
+
+[ 2014-06-21T16:53:45+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=register&wxcount=o-CsGuPRWmejitXUXzfUBzntg77E
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005145s ]
+SQL: SHOW COLUMNS FROM `schoolinfo` [ RunTime:0.008297s ]
+SQL: SELECT * FROM `schoolinfo`  [ RunTime:0.001693s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.037689s ]
+INFO: [ view_template ] --END-- [ RunTime:0.038055s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.049740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050092s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002514s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002937s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001781s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014167s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002691s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003016s ]
+
+[ 2014-06-21T16:55:16+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=register&wxcount=o-CsGuPRWmejitXUXzfUBzntg77E
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002543s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.008307s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.001248s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002016s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002335s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028425s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001743s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001772s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001364s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008213s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002427s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002748s ]
+
+[ 2014-06-21T16:55:53+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Jwsys/addschool
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003318s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003867s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003134s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.008937s ]
+SQL: INSERT INTO `school` (`schoolname`,`url`,`sysno`) VALUES ('北京工业大学','http://gdjwgl.bjut.edu.cn/default2.aspx',2) [ RunTime:0.121787s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003106s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003457s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.056943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057315s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002077s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003459s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002168s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010887s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003948s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004275s ]
+
+[ 2014-06-21T16:55:56+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003626s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004003s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003322s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.007551s ]
+SQL: SELECT * FROM `jwsys`  [ RunTime:0.001235s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004428s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004788s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.040724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041078s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001639s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001943s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001443s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008353s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004132s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004466s ]
+
+[ 2014-06-21T16:55:59+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=register&wxcount=o-CsGuPRWmejitXUXzfUBzntg77E
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002664s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.009715s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.001258s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003207s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003562s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029070s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001712s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001789s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001434s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007907s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003024s ]
+
+[ 2014-06-21T17:07:09+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=register&wxcount=o-CsGuPRWmejitXUXzfUBzntg77E
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003154s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.009478s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.001478s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003684s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004075s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033169s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002456s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002175s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001695s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010606s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002643s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003024s ]
+
+[ 2014-06-21T17:11:19+08:00 ] 0.0.0.0 /gxlm/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003263s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003696s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002892s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.008238s ]
+SQL: SELECT * FROM `studentinfo` WHERE ( wxcount='o-CsGuPRWmejitXUXzfUBzntg77E' ) LIMIT 1   [ RunTime:0.001258s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003307s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003668s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023208s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002211s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002310s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001838s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009595s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002608s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002918s ]
+
+[ 2014-06-21T17:11:41+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=register&wxcount=o-CsGuPRWmejitXUXzfUBzntg77E
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004901s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.008616s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.001317s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003746s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004116s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032923s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002776s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003017s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001751s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010994s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002622s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002945s ]
+
+[ 2014-06-21T17:12:01+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=registerprocess
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002885s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.009326s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.007997s ]
+SQL: SELECT * FROM `school` WHERE ( schoolno=3 ) LIMIT 1   [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.008405s ]
+SQL: SELECT * FROM `jwsys` WHERE ( sysno=1 ) LIMIT 1   [ RunTime:0.001450s ]
+NOTIC: [8] Use of undefined constant Action - assumed 'Action' D:\wamp\www\gxlm\Home\Lib\Action\Home\RegisterAction.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `schoolinfo` [ RunTime:0.009557s ]
+SQL: SELECT * FROM `schoolinfo` WHERE ( schoolno=3 )  [ RunTime:0.001254s ]
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\wamp\www\gxlm\Home\Lib\Action\Home\Zf12_codeAction.class.php 第 17 行.
+NOTIC: [8] Undefined variable: cookies D:\wamp\www\gxlm\ThinkPHP\Extend\Library\ORG\My\Fetchurl.class.php 第 43 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.014870s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015254s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032984s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001633s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001719s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001329s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008257s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002200s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002518s ]
+
+[ 2014-06-21T17:12:02+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=registerprocess
+SQL: INSERT INTO `studentinfo` (`wxcount`,`scount`,`pwd`,`schoolno`,`nickname`) VALUES ('o-CsGuPRWmejitXUXzfUBzntg77E','12142121','19931112',3,'123456') [ RunTime:0.085981s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000909s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.133884s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007368s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.102086s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000474s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000533s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000065s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.101763s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000228s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.101641s ]
+
+[ 2014-06-21T17:13:03+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003251s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003293s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.007845s ]
+SQL: SELECT * FROM `jwsys`  [ RunTime:0.001186s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004632s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005029s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028647s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002172s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002074s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001638s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009504s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003005s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003355s ]
+
+[ 2014-06-21T17:13:22+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Jwsys/addschool
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003181s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003638s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002481s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.012462s ]
+SQL: INSERT INTO `school` (`schoolname`,`url`,`sysno`) VALUES ('天津城建大学','http://202.113.88.13:9002/loginAction.do',2) [ RunTime:0.106710s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002338s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002714s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023957s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001679s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001925s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004572s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011150s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002303s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002620s ]
+
+[ 2014-06-21T17:13:25+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002618s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002979s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003678s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.008208s ]
+SQL: SELECT * FROM `jwsys`  [ RunTime:0.001208s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002668s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029211s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001805s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003089s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001841s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010655s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003048s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003389s ]
+
+[ 2014-06-21T17:14:08+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Jwsys/addschool
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004025s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004399s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003087s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.008017s ]
+SQL: INSERT INTO `school` (`schoolname`,`url`,`sysno`) VALUES ('北京联合大学','http://218.107.191.118/',1) [ RunTime:0.075341s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002085s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002430s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027324s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002214s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002236s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002201s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010487s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002810s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003147s ]
+
+[ 2014-06-21T17:14:10+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003116s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003921s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003500s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.008355s ]
+SQL: SELECT * FROM `jwsys`  [ RunTime:0.001105s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002527s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002900s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027709s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002123s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002468s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001491s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009660s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002302s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002607s ]
+
+[ 2014-06-21T20:46:24+08:00 ] 0.0.0.0 /gxlm/?m=Register&a=register&wxcount=o-CsGuPRWmejitXUXzfUBzntg77E
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007210s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.027328s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.001368s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004408s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004812s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.053072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053422s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002838s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002587s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002273s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011966s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003327s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003982s ]
+
+[ 2014-06-21T20:46:33+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.031321s ]
+INFO: [ route_check ] --END-- [ RunTime:0.031698s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003597s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.014185s ]
+SQL: SELECT * FROM `jwsys`  [ RunTime:0.001649s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007017s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007640s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.052954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053467s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002924s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004390s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001982s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013360s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003087s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003411s ]
+
+[ 2014-06-21T20:56:42+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003544s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002661s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.014503s ]
+SQL: SELECT * FROM `jwsys`  [ RunTime:0.001861s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005552s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006144s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.041305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041786s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001945s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002037s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001639s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009308s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002963s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003558s ]
+
+[ 2014-06-21T21:22:40+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003852s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004352s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002693s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.014090s ]
+SQL: SELECT * FROM `jwsys`  [ RunTime:0.001799s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005276s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005767s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035436s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001919s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002005s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001622s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008779s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003052s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003389s ]
+
+[ 2014-06-21T21:22:45+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Jwsys/addjwsys
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002882s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003333s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002347s ]
+
+[ 2014-06-21T21:27:51+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Jwsys/addjwsys
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003535s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002677s ]
+
+[ 2014-06-21T21:28:36+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Jwsys/addjwsys
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003188s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003569s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003346s ]
+NOTIC: [2] fopen(D:\wamp\www\gxlm/Home/Lib/Action/Home/QhdxAction.class .php) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: File exists D:\wamp\www\gxlm\Home\Lib\Action\Admin\JwsysAction.class.php 第 42 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\wamp\www\gxlm\Home\Lib\Action\Admin\JwsysAction.class.php 第 43 行.
+
+[ 2014-06-21T21:28:50+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Jwsys/addjwsys
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002898s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003264s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002325s ]
+
+[ 2014-06-21T21:29:42+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Jwsys/addjwsys
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002582s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002974s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002403s ]
+
+[ 2014-06-21T21:31:26+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005721s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002596s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.013961s ]
+SQL: SELECT * FROM `jwsys`  [ RunTime:0.002353s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005370s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006004s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.042797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043299s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002574s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002666s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001612s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010511s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002546s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002855s ]
+
+[ 2014-06-21T21:31:30+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Jwsys/addjwsys
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002514s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002881s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002779s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001993s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002365s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026929s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001638s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001730s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001304s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008198s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002708s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003033s ]
+
+[ 2014-06-21T21:31:32+08:00 ] 0.0.0.0 /gxlm/index.php/admin/Index/main?name=admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003567s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004095s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004100s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\gxlm\Home\Lib\Action\Admin\IndexAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `jwsys` [ RunTime:0.009416s ]
+SQL: SELECT * FROM `jwsys`  [ RunTime:0.001350s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002478s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002881s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027631s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001689s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002172s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001451s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008535s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002249s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002615s ]
+
