@@ -1,0 +1,130 @@
+        <div class="m_main_wrap">
+            <div class="m_main">
+                <div class="m_block1">
+                    <div class="m_block1_hd">
+                        <div class="block_tit">
+                            <i class="stick"></i>
+                            <div class="caption">账户资料</div>
+                        </div>
+                        <div class="block_linethrough"></div>
+                    </div>
+                    <div class="m_block2_bd">
+                        <!-- 个人信息 start -->
+                        <div class="m_form m_form_profile form-horizontal">
+                            <div class="form_line">
+                                <div class="input_wrap">
+                                    <label class="input_label">头 像：</label>
+                                    <div class="input_control">
+                                        <div class="avatar">
+                                            <form action="../user/upload_avatar.html" enctype="multipart/form-data" method="post" class="head-upload-form">
+                                                <img src="__PUBLIC__/upload/avatar/{$info.avatar}" alt="" id="head_img">
+                                                <input class="btn_upload" type="file" name="file" id="head_file_input" onchange="javascript: $(this).parent('form').submit();">
+                                                <input type="hidden" name="input_head" id="input_head" value="{$info.avatar}">
+                                                <span class="text">编辑头像</span>
+                                                <span class="mask"></span>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="m_message m_message_success" id="head_message"></div>
+                                </div>
+                            </div>
+                            <div class="form_line">
+                                <div class="input_wrap control-group">
+                                    <label class="input_label">昵 称：</label>
+                                    <div class="input_control">
+                                        <input class="input-xlarge focused" id="nickname" type="text" style="width:220px;height:42px" placeholder="请输入昵称…">
+                                    </div>
+                                    <div class="m_message m_message_warning">
+                                    </div>
+                                </div>
+                                <div class="form_line">
+                                    <div class="input_wrap">
+                                        <label class="input_label">性 别：</label>
+                                        <div class="input_control">
+                                            <div class="gender" id="sex" cur-data="0">
+                                                <label><input type="radio" name="gender" value="1">男</label>
+                                                <label><input type="radio" name="gender" value="2">女</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form_line">
+                                    <div class="input_wrap">
+                                        <label class="input_label">生 日：</label>
+                                        <div class="input_control">
+                                            <div class="cmd_wrap birth_date" id="birth_year">
+                                                <div class="cmd_btn">
+                                                    <span class="txt" id="year_value" data-value="">请选择</span>
+                                                    <i class="arrow"></i>
+                                                </div>
+                                                <div class="cmd_con">
+                                                    <!-- li鼠标移上去增加hover类 -->
+                                                    <ul class="list">
+                                                        <li data-value="2015" data-text="2015" class="year_list">2015</li>
+                                                        <li data-value="2014" data-text="2014" class="year_list">2014</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="birth_lorem">年</div>
+                                            <div class="cmd_wrap birth_date" id="birth_month">
+                                                <div class="cmd_btn">
+                                                    <span class="txt" id="month_value" data-value="">请选择</span>
+                                                    <i class="arrow"></i>
+                                                </div>
+                                                <div class="cmd_con">
+                                                    <!-- li鼠标移上去增加hover类 -->
+                                                    <ul class="list">
+                                                        <li data-value="01" data-text="01" class="month_list">01</li>
+                                                        <li data-value="02" data-text="02" class="month_list">02</li>
+                                                        <li data-value="03" data-text="03" class="month_list">03</li>
+                                                        <li data-value="04" data-text="04" class="month_list">04</li>
+                                                        <li data-value="05" data-text="05" class="month_list">05</li>
+                                                        <li data-value="06" data-text="06" class="month_list">06</li>
+                                                        <li data-value="07" data-text="07" class="month_list">07</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="birth_lorem">月</div>
+                                            <div class="cmd_wrap birth_date" id="birth_date">
+                                                <div class="cmd_btn">
+                                                    <span class="txt" id="date_value" data-value="">请选择</span>
+                                                    <i class="arrow"></i>
+                                                </div>
+                                                <div class="cmd_con">
+                                                    <!-- li鼠标移上去增加hover类 -->
+                                                    <ul class="list">
+                                                        <li data-value="01" data-text="01" class="date_list">01</li>
+                                                        <li data-value="02" data-text="02" class="date_list">02</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="birth_lorem">日</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form_line">
+                                    <div class="input_wrap">
+                                        <label class="input_label">Email：</label>
+                                        <div class="input_control">
+                                            <input class="input-xlarge focused" id="email" type="text" style="width:220px;height:42px!important" placeholder="请输入email…">
+                                        </div>
+                                        <div class="m_message m_message_warning">
+                                        </div>
+                                    </div>
+                                    <div class="form_line form_controls">
+                                        <div class="input_wrap">
+                                            <label class="input_label">&nbsp;</label>
+                                            <div class="input_control">
+                                                <a href="javascript: ;" class="uc_btn uc_btn_orange" id="btn_userinfo_up">确认保存</a>
+                                            </div>
+                                            <div class="m_message m_message_success" id="btn_userinfo_up_message"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 个人信息 end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

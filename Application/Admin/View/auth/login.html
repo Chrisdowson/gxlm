@@ -1,0 +1,55 @@
+<div class="row-fluid">
+
+    <div class="row-fluid">
+        <div class="login-box">
+            <div class="icons">
+                <a href="../index/index.html"><i class="halflings-icon home"></i></a>
+                <a href="#"><i class="halflings-icon cog"></i></a>
+            </div>
+            <h2>登陆</h2>
+            <form class="form-horizontal" action="login.html" method="post">
+                <fieldset>
+
+                    <div class="input-prepend" title="email">
+                        <span class="add-on"><i class="halflings-icon user"></i></span>
+                        <input class="input-large span10" name="email" id="email" type="text" placeholder="type email"/>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="input-prepend" title="Password">
+                        <span class="add-on"><i class="halflings-icon lock"></i></span>
+                        <input class="input-large span10" name="password" id="password" type="password" placeholder="type password"/>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <label class="remember" for="remember"><input type="checkbox" id="remember" />记住我</label>
+
+                    <div class="button-login">
+                        <button type="submit" class="btn btn-primary">登 陆</button>
+                    </div>
+                    <div class="clearfix"></div>
+            </form>
+        </div><!--/span-->
+    </div><!--/row-->
+    <script type="text/javascript">
+        $("form").submit(function(e){
+            e.preventDefault();
+            var email = $('#email').val();
+            var password = $('#password').val();
+            $.ajax({
+                type:"post",
+                url:'login.html',
+                data:{
+                 email:email,
+                 password:password
+                },
+                success:function(data){
+                    if(data.success=='0'){
+                        alert(data.msg);
+                    }else{
+                        window.location.href = '../index/index.html';
+                    }
+                }
+            })
+        })
+    </script>

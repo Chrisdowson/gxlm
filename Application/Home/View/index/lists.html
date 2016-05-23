@@ -1,0 +1,14 @@
+<load href="__PUBLIC__/home/css/lists.css"/>
+<div class="center">
+    <ul class="nav nav-tabs nav-tabs-zen mb10">
+        <foreach name="categorys" item="categorys" key="k">
+            <li class="<?php if($category==$k){ echo 'active';}?>"><a href="?category=<?php echo $k;?>"><?php echo $categorys;?></a></li>
+        </foreach>
+    </ul>
+    <div class="ques-lists">
+        <volist name="lists" id="lists">
+            <section class="select-items"><a href="detail.html?id={$lists.id}">{$lists.title}</a></section>
+        </volist>
+    </div>
+    {:W('LinkPager/LinkPager',array($pagecount,$pagenow,$category))}
+</div>

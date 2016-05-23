@@ -1,0 +1,368 @@
+[ 2016-02-02T09:27:15+08:00 ] 127.0.0.1 /index.php/Admin/tiku/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007002s ]
+SQL: SHOW COLUMNS FROM `problems` [ RunTime:0.0020s ]
+SQL: INSERT INTO `problems` (`title`,`category`,`difficulty`,`is_show`,`type`,`options`,`description`,`answer`,`answer_des`,`ctime`) VALUES ('请用PHP实现一个函数，将一个2进制数的无符号非负电位字符串非浮点字符串转成一个10进制数，返回该10进制。不许使用BIN等系统内置函数','2','1','1','3','[\"\"]','','&lt;p&gt;
+	题目意思有些模糊，题目本意可能是将一个无符号的2进制字符串转成10进制数，如\'10100010\',应该得到10100010的十进制表示162
+&lt;/p&gt;
+&lt;p&gt;
+	function bin2dec($bin){&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; $temp = strrev($bin);&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; $result = 0;&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; for($i=0,$len = strlen($temp);$i &amp;lt; $len;$i++){&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; $result += pow(2, $i)*$temp[$i];&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; }&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; return $result;&lt;br /&gt;
+}&lt;br /&gt;
+&lt;br /&gt;
+$a = \'10100010\';&lt;br /&gt;
+echo bin2dec($a);
+&lt;/p&gt;','','2016-02-02 09:27:15') [ RunTime:0.0180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007002s ]
+
+[ 2016-02-02T09:27:17+08:00 ] 127.0.0.1 /index.php/Admin/tiku/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-02-02T09:48:11+08:00 ] 127.0.0.1 /index.php/Admin/tiku/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `problems` [ RunTime:0.0020s ]
+SQL: INSERT INTO `problems` (`title`,`category`,`difficulty`,`is_show`,`type`,`options`,`description`,`answer`,`answer_des`,`ctime`) VALUES ('请使用PHP设计一个函数，对学生英语考试得分从高到低排序，输入时所有学生的学号和考试得分，返回排好序的考试得分和对应学生的学号。考试满分为100，得分可能会有小数，由于考试评分要求，小数位只会是0或0.5','2','1','1','3','[\"\"]','要求：&lt;br /&gt;
+请不要使用qsort等系统内置排序函数&lt;br /&gt;
+请使用你认为最快最优的方法实现该函数并使排序的性能最高。&lt;br /&gt;','/*快速排序实现*/&lt;br /&gt;
+function array_sort(&amp;amp;$arr,$left,$right){&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; if($left &amp;lt; $high){&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; while($low &amp;lt; $high &amp;amp;&amp;amp; $arr[$high][\'score\'] &amp;gt;= $pivot[\'score\']){&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; $high--;&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; $arr[$high] = $arr[$high];&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; while($low &amp;lt; $high &amp;amp;&amp;amp; $arr[$low][\'score\'] &amp;lt;= $pivot[\'score\']){&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; $low++;&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; $arr[$high] = $arr[$low];&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; }&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; $arr[$high] = $pivot;&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; array_sort($arr, $left, $low-1);&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; array_sort($arr, $low+1,$right);&lt;br /&gt;
+}&lt;br /&gt;
+$english = array(&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; array(\'sid\'=&amp;gt;1, \'score\'=&amp;gt;76),&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; array(\'sid\'=&amp;gt;2, \'score\'=&amp;gt;73),&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; array(\'sid\'=&amp;gt;3, \'score\'=&amp;gt;68.5),&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; array(\'sid\'=&amp;gt;4, \'score\'=&amp;gt;82.5)&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; );&lt;br /&gt;
+$left = 0;&lt;br /&gt;
+$right = count($english)-1;&lt;br /&gt;
+array_sort($english,$left,$right);&lt;br /&gt;
+print_r($english);&lt;br /&gt;','','2016-02-02 09:48:11') [ RunTime:0.0270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-02T09:48:12+08:00 ] 127.0.0.1 /index.php/Admin/tiku/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-02T09:53:33+08:00 ] 127.0.0.1 /index.php/Admin/tiku/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `problems` [ RunTime:0.0030s ]
+SQL: INSERT INTO `problems` (`title`,`category`,`difficulty`,`is_show`,`type`,`options`,`description`,`answer`,`answer_des`,`ctime`) VALUES ('请仅使用一次正则替换，将下面内容','2','1','1','3','[\"\"]','private long contract_id&lt;br /&gt;
+private string contract_number;&lt;br /&gt;
+private string customer_name;&lt;br /&gt;
+替换为&lt;br /&gt;
+private long contractId;&lt;br /&gt;
+private string contractNumber;&lt;br /&gt;
+private string customerName;&lt;br /&gt;','$str = &quot;private long contact_id;&lt;br /&gt;
+private string contact_number;&lt;br /&gt;
+private string customer_name;&quot;;&lt;br /&gt;
+$pattern =\'/_(\\w)/em\';&lt;br /&gt;
+$result = preg_replace($pattern, &quot;strtoupper(\'\\\\1\')&quot;,$str);&lt;br /&gt;
+echo $result;&lt;br /&gt;','','2016-02-02 09:53:33') [ RunTime:0.0290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-02T09:53:34+08:00 ] 127.0.0.1 /index.php/Admin/tiku/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-02T09:58:58+08:00 ] 127.0.0.1 /index.php/Admin/tiku/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `problems` [ RunTime:0.0020s ]
+SQL: INSERT INTO `problems` (`title`,`category`,`difficulty`,`is_show`,`type`,`options`,`description`,`answer`,`answer_des`,`ctime`) VALUES ('用正则表达式判断$a是否是一个以半角逗号分割的多个手机号码组成的字符串，是输出yes','2','1','1','3','[\"\"]','','$pattern = \'/^1[358]\\d{9}(,1[358]\\d{9})*$/\';&lt;br /&gt;
+$subject = \'13507224985,13833103237\';&lt;br /&gt;
+if(preg_match($pattern, $subject)){&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; echo \'yes\';&lt;br /&gt;
+}&lt;br /&gt;','','2016-02-02 09:58:58') [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-02T09:58:59+08:00 ] 127.0.0.1 /index.php/Admin/tiku/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-02T10:32:53+08:00 ] 127.0.0.1 /index.php/Admin/tiku/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.037206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008812s ]
+
+[ 2016-02-02T10:32:53+08:00 ] 127.0.0.1 /index.php/Admin/auth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023498s ]
+
+[ 2016-02-02T10:32:54+08:00 ] 127.0.0.1 /index.php/Admin/auth/img/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-02T10:32:55+08:00 ] 127.0.0.1 /index.php/Admin/auth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `admin` WHERE `email` = 'chrisdowson@163.com' LIMIT 1   [ RunTime:0.0117s ]
+
+[ 2016-02-02T10:32:55+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-02-02T10:32:55+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-02T10:32:55+08:00 ] 127.0.0.1 /index.php/Admin/index/img/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000979s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-02-02T10:32:57+08:00 ] 127.0.0.1 /index.php/Admin/tiku/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `problems` [ RunTime:0.0392s ]
+SQL: SELECT * FROM `problems`  [ RunTime:0.0470s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\tp\Application\Admin\Controller\TikuController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\tp\Application\Admin\Controller\TikuController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\tp\Application\Admin\Controller\TikuController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\tp\Application\Admin\Controller\TikuController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\tp\Application\Admin\Controller\TikuController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\tp\Application\Admin\Controller\TikuController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000979s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000979s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-02-02T10:32:58+08:00 ] 127.0.0.1 /index.php/Admin/tiku/img/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-02T11:24:02+08:00 ] 127.0.0.1 /index.php/Admin/tiku/edit.html?id=61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `problems` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `problems` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

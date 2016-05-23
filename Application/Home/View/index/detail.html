@@ -1,0 +1,60 @@
+<div class="center">
+    <form action="./solve.html" method="post">
+        <?php if(!empty($info)){?>
+        <input name="id" type="hidden" value="<?php echo $info['id'];?>"/>
+        <!--题目标题-->
+        <h5 class="ques-title">Q.<?php echo $info['title'];?></h5>
+        <?php if(!empty($info['description'])){?>
+        <div class="description"><?php echo $info['description'];?></div>
+        <?php }?>
+        <div class="answer">
+            <?php if(1==$info['type']||4==$info['type']){?>
+            <!--题目答案选项-->
+            <div class="ques-items">
+                <?php  foreach($info['options'] as $key => $value){?>
+                    <div class="radio">
+                        <?php if(1==$info['type']){?>
+                        <label><input type="radio" name="answer" value="<?php echo $key;?>"><?php echo $value;?>;</label>
+                        <?php }else{ ?>
+                        <label class="checkbox-inline"><input type="checkbox" name="answer[]" value="<?php echo $key;?>"> <?php echo $value;?></label>
+                        <?php } ?>
+                    </div>
+                <?php }?>
+            </div>
+            <?php }else{?>
+            <!--填空题目答案-->
+            <div class="ques-tiankong">
+                <input type="hidden" value="" />
+                <textarea class="form-control" rows="3" style="width: 50%;height: 300px;"></textarea>
+            </div>
+            <?php }?>
+        </div>
+        <div class="true_answer">
+            <div class="accordion" id="accordion2">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" style="text-decoration:none;">
+                        点击查看正确答案­­­­­→
+                    </a>
+                </div>
+                <div id="collapseOne" class="accordion-body collapse" style="height: 0px; text-align: left;">
+                    <div class="accordion-inner">
+                        答案：<br/>{$info.answer|html_entity_decode}
+                    </div>
+                    <div class="accordion-inner">
+                        答案说明：<br/>{$info.answer_des}
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <?php if($session){?>
+        <!--上一题和下一题-->
+        <div class="ques-navi"><input class="btn btn-lg btn-primary" type="submit" value="提 交"></div>
+        <?php }?>
+        <?php }else{?>
+            <p class="text-error">木有题目咯~</p>
+        <?php }?>
+    </form>
+</div>
+<load href="__PUBLIC__/home/js/detail.js"/>

@@ -1,0 +1,24 @@
+<div class="floating_bar">
+    <div class="f_item f_item_consult">
+        <i class="deco"></i>
+        <div class="reality"><a target="_blank" onclick="FeedbackModal();" href="javascript:void(0);">反馈</a></div>
+    </div>
+</div>
+<!--start 反馈弹出框-->
+<div class="modal hide fade" id="feedback-modal">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h3>意见反馈</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal register-form">
+            <textarea  class="cleditor" id="content" name="content" type="text" style="width: 100%;height: 100px;"></textarea>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <a href="javascript:void(0);" class="btn" data-dismiss="modal">取消</a>
+        <a href="javascript:void(0);" class="btn btn-primary" id="feedback">确定</a>
+    </div>
+</div>
+<!--end-->
+    <load href="__PUBLIC__/home/js/floatbar.js"/>

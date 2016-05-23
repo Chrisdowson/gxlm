@@ -1,0 +1,35 @@
+<div class="m_side_wrap">
+    <div class="m_side">
+        <div class="m_side_avatar">
+            <div class="figure">
+                <img id="left_nick_img" src="<?php
+                if($info['avatar']){
+                    echo '../../../public/upload/avatar/'.$info['avatar'];
+                }else{
+                    echo '../../../public/home/img/user/avatar_02.png';
+                }
+                ?>">
+            </div>
+            <div class="nickname"><?php echo $_COOKIE['username'];?></div>
+        </div>
+        <div class="m_side_menu">
+            <ul>
+                <li class="menu_item">
+                    <div class="menu_item_link">
+                        <i class="menu_ico menu_ico_01"></i>
+                        <a>个人中心</a>
+                        <i class="caret"></i>
+                    </div>
+                    <div class="sub_menu">
+                        <ul>
+                            <li class="sub_menu_item <?php if(ACTION_NAME=='center'){echo 'active';}?>"><a href="./center.html">个人资料</a></li>
+                            <li class="sub_menu_item <?php if(ACTION_NAME=='repwd'){echo 'active';}?>"><a href="./repwd.html">修改密码</a></li>
+                            <li class="sub_menu_item <?php if(ACTION_NAME=='testlog'){echo 'active';}?>"><a href="./testlog.html">测试记录</a></li>
+                        </ul>
+                    </div>
+                </li>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
